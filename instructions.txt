@@ -1,0 +1,15 @@
+NAME - ROHIT DUTTA
+ROLL NO. - 23CSR60R19
+
+1. Python version - 3.10.7
+
+2. Hardware configuration - 12th Gen Intel(R) Core(TM) i5 - 1240P / 16GB RAM
+
+2. Run the gen_centrality.py from the terminal using the command : 
+    python gen_centrality.py (Windows)
+    python3 gen_centrality.py (Linux)
+
+3. The computation for betweenness centrality will take 1.5 hours to 2 hours on a standard PC.
+
+4. The distance between the pair of nodes which are unreachable by directed edges/path has been taken as infinity i.e float('inf')
+    E.g. : if there is no directed path from A to B (A -> B) then distance(A, B) = float('inf')
